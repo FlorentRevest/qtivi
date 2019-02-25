@@ -51,6 +51,11 @@
             "condition": "module.multimedia",
             "output": [ "privateFeature" ]
         },
+        "media_mopidy_backend": {
+            "label": "Mediaplayer Mopidy Backend",
+            "condition": "module.multimedia",
+            "output": [ "privateFeature" ]
+        },
         "tuner_simulation_backend": {
             "label": "Tuner Simulation Backend",
             "output": [ "privateFeature" ]
@@ -104,7 +109,8 @@ Please make sure the QtMultimedia module is available."
                     "entries": [
                         "media_simulation_backend",
                         "tuner_simulation_backend",
-                        "mpris_backend"
+                        "mpris_backend",
+                        "media_mopidy_backend"
                     ]
                 }
             ]
